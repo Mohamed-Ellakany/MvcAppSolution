@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "CheckYourInbox";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+
+
+<form>
+<div>
+
+    password reset link has been sent to you mail , please check email
+
+</div>
+<a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="_blank" >Go To Your Inbox</a>
+</form>
+
+@section Validation {
+    <partial name="_ValidationScriptsPartial" />
+}
