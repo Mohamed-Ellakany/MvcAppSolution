@@ -126,7 +126,9 @@ namespace MvcAppPL.Controllers
         }
 
 
-
+       
+       /// ///////////
+       
 
         public async Task<IActionResult> Delete([FromRoute ]string Id)
         {
